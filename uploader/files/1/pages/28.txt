@@ -1,0 +1,4 @@
+3
+2 4 22 82 0 0 about_us1.png
+25 4 44 82 180 0 advantages2.png
+70 4 23 82 270 0 about_us1.png

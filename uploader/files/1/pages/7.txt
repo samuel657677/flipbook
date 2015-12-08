@@ -1,0 +1,4 @@
+3
+2 4 52 82 0 0 header-bg.png
+55 4 38 40 0 0 ico_gallery.png
+55 46 38 40 0 0 ico_portfolio.png

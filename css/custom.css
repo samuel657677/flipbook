@@ -1,0 +1,263 @@
+
+html, body {height: 100%;}
+
+.wrapper {
+	min-height: 100%;
+}
+
+.main {overflow:auto;
+	padding-bottom: 150px;}  /* must be same height as the footer */
+
+.footer {position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.top-bar, .contain-to-grid {
+	background-color: #202027;
+}
+.top-bar {
+	height: 4.625rem;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #202027;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background-color: #efaf39;
+	color:  #202027;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	line-height: 3.315rem;
+}
+.top-bar-section ul li > a {
+	font-family: 'Roboto', sans-serif;
+}
+.logo {
+	padding-top: 1.375em;
+}
+.hero {
+	background-color: #efaf39;
+}
+.hero h5 {
+	margin-top: 3.0625em;
+}
+.hero h6 {
+	margin-bottom: 3.0em;
+}
+.hero h1 {
+	font-weight: 700;
+	color: #161414;
+	line-height: 1.3;
+	font-size: 2.5em;
+}
+.hero2 {
+	background-color: #202027;
+	padding-top: 20em;
+	padding-bottom: 4.125em;
+	background: url(../img/baldmanhero.jpg) top center no-repeat #202027;
+	max-height: 710px;
+
+}
+.hero2 h1 {
+	color: #efaf39;
+	font-weight: 900;
+	font-size: 3em;
+}
+.hero2 h5 {
+	color: white;
+	font-weight: 300;
+}
+a.cta {
+	background: url(../img/ctabg.png) repeat-x;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	color: #161515;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px #f5d543;
+	margin: 1.125em 0 0 0;
+	box-shadow: 0px 1px 4px #151519;
+}
+a.cta:hover {
+	color: black;
+	background: url(../img/ctabg2.png) repeat-x;
+}
+
+/*TYPOGRAPHY*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+p {
+	font-size: 1.055em;
+	color: #292525;
+}
+.nutrien h5 {
+	text-align: left;
+	font-weight: 700;
+	color: #eb9c09;
+}
+
+span.redtext {
+	color: #bc1515;
+}
+
+h2 {
+	margin: 1.5em 0 1em 0;
+	text-transform: uppercase;
+	font-size: 2.053em;
+	font-weight: 700;
+}
+h3 {
+	margin: 1em 0;
+}
+ul li, ol li {
+	list-style: none;
+	font-size: 1.055em;
+}
+ul.list1 li {
+	background: url(../img/bullet1.png) left 1px no-repeat;
+	padding-left: 2.6em;
+	margin-bottom: 1em;
+	line-height: 2.5;
+}
+ul.benefits li {
+	background: url(../img/bullet2.png) left 3px no-repeat;
+	padding-left: 1.5em;
+	margin-bottom: 1em;
+	line-height: 1.5;
+}
+.para1, .istimewa, .kandungan, .jaminan{
+	padding: 1em 0 2.5em 0;
+}
+.istimewa {
+	background-color: #202027;
+	color: white;
+}
+.istimewa h2 {
+	color: white;
+}
+.nutrien .row{
+	margin-bottom: 2.5em;
+}
+.imgleft {
+	margin: 0 1.9em 0.8em 0;
+}
+.kandungan img {
+	border-radius: 180px;
+}
+.kandungan {
+	background-color: #efaf39;
+}
+.kandungan h5 {
+	text-align: left;
+	font-weight: 700;
+	color: #202027;
+	font-size: 1.5em;
+}
+.kandungan .row {
+	margin-bottom: 3em;
+}
+.kandungan .des {
+	padding-top: 3.5em;
+}
+.testimoni .row {
+	margin-bottom: 3em;
+}
+.jaminan {
+	background-color: #efaf39;
+}
+.faq li {
+	margin-bottom: 0.5em;
+}
+.faq .soalan {
+	font-weight: 700;
+}
+.faq .answer {
+	color: #6d6d6d;
+	margin-bottom: 1.5em;
+}
+.cust img {
+	border-radius: 180px;
+}
+.cust .row {
+	margin-bottom: 2.5em;
+}
+.imgcircle {
+	border-radius: 180px;
+}
+.footer {
+	padding-top: 2.5em;
+}
+.footer p {
+	color: #b4b4b4;
+	font-size: 0.81em;
+}
+a.obtn {
+	font-size: 2.1em;
+	font-family: 'Lato', sans-serif;
+}
+.obtn {
+	width: 80%;
+	margin: 0.7em auto;
+}
+.testiutama h4 {
+	
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #eb9a06;
+}
+.testiutama {
+	font-family: 'Lato', sans-serif;
+	
+}
+.testiutama blockquote {
+	font-style: italic;
+	color: #3a3a3a;
+	background: url(../img/quote.png) center no-repeat;
+}
+.testiutama .quote {
+	padding-top: 10em;
+	
+}
+.testiutama h5 {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.125em;
+}
+.testiutama .row {
+	margin-bottom: 10em;
+}
+span.grey {
+	color: #565555;
+}
+.address {
+	background: url(../img/office.jpg) left top no-repeat #202027;
+	min-height: 541px;
+	color: white;
+}
+.address h4, .address p {
+	text-align: left;
+	color: white;
+}
+.address h4 {
+	font-size: 2.1em;
+	text-transform: uppercase;
+}
+.maps {
+	width: 100%;
+	height: 100%;
+	
+}

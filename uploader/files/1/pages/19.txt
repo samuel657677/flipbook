@@ -1,0 +1,4 @@
+3
+2 4 52 82 0 0 quality_standards_image3.png
+55 4 38 40 0 0 quote.png
+55 46 38 40 0 0 search.png

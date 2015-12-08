@@ -1,0 +1,5 @@
+4
+2 4 45 40 0 0 versatility2.png
+48 4 45 40 0 0 advantages1.png
+2 46 45 40 0 0 about_us2.png
+48 46 45 40 0 0 about_us_image.png

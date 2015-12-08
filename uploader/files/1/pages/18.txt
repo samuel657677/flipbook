@@ -1,0 +1,2 @@
+1
+2 4 90 80 0 0 quality_standards_image2.png

@@ -1,0 +1,4 @@
+3
+2 4 30 50 0 0 ico_search.png
+2 56 30 30 0 0 ico_slider.png
+33 4 60 82 0 0 Individuality1.png

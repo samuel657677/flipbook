@@ -1,0 +1,4 @@
+3
+2 4 22 82 0 0 nav_bottom.png
+25 4 44 82 0 0 orange-bg.jpg
+70 4 23 82 0 0 page_bg.png
